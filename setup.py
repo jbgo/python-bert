@@ -5,12 +5,14 @@ from distutils.core import setup
 __version__ = '1.0.0'
 
 setup(
-    name = 'bert',
+    name = 'insight-bert',
     version = __version__,
     description = 'BERT Serialization Library',
     author = 'Samuel Stauffer',
     author_email = 'samuel@lefora.com',
-    url = 'http://github.com/samuel/python-bert',
+    maintainer='Jordan Bach',
+    maintainer_email='jordanbach@gmail.com',
+    url = 'https://github.com/jbgo/python-bert/tree/insight-bert',
     packages = ['bert'],
     install_requires = ["erlastic"],
     classifiers = [
